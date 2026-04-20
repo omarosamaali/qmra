@@ -58,6 +58,31 @@ class ContactController extends Controller
         ]);
     }
 
+    // DELETE /api/admin/messages/{id}?key=...
+    public function destroy(Request $request, int $id)
+    {
+        if (!$this->checkKey($request)) {
+            return response()->json(['error' => 'unauthorized'], 401);
+        }
+
+        ContactMessage::findOrFail($id)->delete();
+
+        return response()->json(['success' => true, 'deleted_id' => $id]);
+    }
+
+    // DELETE /api/admin/messages?key=...  — delete all
+    public function destroyAll(Request $request)
+    {
+        if (!$this->checkKey($request)) {
+            return response()->json(['error' => 'unauthorized'], 401);
+        }
+
+        $count = ContactMessage::count();
+        ContactMessage::truncate();
+
+        return response()->json(['success' => true, 'deleted_count' => $count]);
+    }
+
     // POST /api/admin/messages/{id}/reply?key=...
     // Body: { "reply": "نص الرد" }
     public function reply(Request $request, int $id)

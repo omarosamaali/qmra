@@ -194,6 +194,10 @@ Route::post('/api/vehicle/odometer', function () {
 Route::get('/api/admin/messages', [ContactController::class, 'adminIndex']);
 // Admin: reply to a message  — POST /api/admin/messages/{id}/reply?key=YOUR_KEY  body: {"reply":"..."}
 Route::post('/api/admin/messages/{id}/reply', [ContactController::class, 'reply']);
+// Admin: delete one message  — DELETE /api/admin/messages/{id}?key=YOUR_KEY
+Route::delete('/api/admin/messages/{id}', [ContactController::class, 'destroy']);
+// Admin: delete all messages — DELETE /api/admin/messages?key=YOUR_KEY
+Route::delete('/api/admin/messages', [ContactController::class, 'destroyAll']);
 
 Route::get('/api/geo', function () {
     $ip  = request()->ip();
