@@ -78,11 +78,11 @@ export default function Contact() {
                                             <label className={labelClass}>الموضوع</label>
                                             <select value={form.subject} onChange={(e) => setForm({ ...form, subject: e.target.value })} className={inputClass} required>
                                                 <option value="">اختر الموضوع</option>
-                                                <option value="support">دعم تقني</option>
-                                                <option value="billing">فواتير واشتراكات</option>
-                                                <option value="feedback">اقتراح أو ملاحظة</option>
-                                                <option value="partnership">شراكة تجارية</option>
-                                                <option value="other">أخرى</option>
+                                                    <option value="دعم تقني">دعم تقني</option>
+                                                    <option value="فواتير واشتراكات">فواتير واشتراكات</option>
+                                                    <option value="اقتراح أو ملاحظة">اقتراح أو ملاحظة</option>
+                                                    <option value="شراكة تجارية">شراكة تجارية</option>
+                                                    <option value="أخرى">أخرى</option>
                                             </select>
                                         </div>
                                         <div>
