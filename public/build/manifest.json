@@ -1,0 +1,197 @@
+{
+  "_language-BpeoQ7Nx.js": {
+    "file": "assets/language-BpeoQ7Nx.js",
+    "name": "language",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DzFRyPVl.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login-BKlfY0sm.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.jsx": {
+    "file": "assets/Register-sSEx6fK_.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Car/Dashboard.jsx": {
+    "file": "assets/Dashboard-z-NPyXBX.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Car/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Car/Onboarding.jsx": {
+    "file": "assets/Onboarding-Dq6KFgSb.js",
+    "name": "Onboarding",
+    "src": "resources/js/Pages/Car/Onboarding.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-BG8b7bcO.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_language-BpeoQ7Nx.js"
+    ]
+  },
+  "resources/js/Pages/Phone/About.jsx": {
+    "file": "assets/About-v-6klkGz.js",
+    "name": "About",
+    "src": "resources/js/Pages/Phone/About.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/AddService.jsx": {
+    "file": "assets/AddService-C2NLQZvS.js",
+    "name": "AddService",
+    "src": "resources/js/Pages/Phone/AddService.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/AddVehicle.jsx": {
+    "file": "assets/AddVehicle-Dk8cQGbz.js",
+    "name": "AddVehicle",
+    "src": "resources/js/Pages/Phone/AddVehicle.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Contact.jsx": {
+    "file": "assets/Contact-BHzXLTQM.js",
+    "name": "Contact",
+    "src": "resources/js/Pages/Phone/Contact.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Notes.jsx": {
+    "file": "assets/Notes-C8QbqVdN.js",
+    "name": "Notes",
+    "src": "resources/js/Pages/Phone/Notes.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Profile.jsx": {
+    "file": "assets/Profile-CEGnBKcE.js",
+    "name": "Profile",
+    "src": "resources/js/Pages/Phone/Profile.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Records.jsx": {
+    "file": "assets/Records-CLWAmFD6.js",
+    "name": "Records",
+    "src": "resources/js/Pages/Phone/Records.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Reminders.jsx": {
+    "file": "assets/Reminders-HCEIGzVw.js",
+    "name": "Reminders",
+    "src": "resources/js/Pages/Phone/Reminders.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Services.jsx": {
+    "file": "assets/Services-CSsaUHR4.js",
+    "name": "Services",
+    "src": "resources/js/Pages/Phone/Services.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Subscriptions.jsx": {
+    "file": "assets/Subscriptions-CavGJM3E.js",
+    "name": "Subscriptions",
+    "src": "resources/js/Pages/Phone/Subscriptions.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Terms.jsx": {
+    "file": "assets/Terms-DqRMwfhR.js",
+    "name": "Terms",
+    "src": "resources/js/Pages/Phone/Terms.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Phone/Warranty.jsx": {
+    "file": "assets/Warranty-CUUtL1J0.js",
+    "name": "Warranty",
+    "src": "resources/js/Pages/Phone/Warranty.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_language-BpeoQ7Nx.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-QlJyrdcE.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Auth/Register.jsx",
+      "resources/js/Pages/Car/Dashboard.jsx",
+      "resources/js/Pages/Car/Onboarding.jsx",
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/Phone/About.jsx",
+      "resources/js/Pages/Phone/AddService.jsx",
+      "resources/js/Pages/Phone/AddVehicle.jsx",
+      "resources/js/Pages/Phone/Contact.jsx",
+      "resources/js/Pages/Phone/Notes.jsx",
+      "resources/js/Pages/Phone/Profile.jsx",
+      "resources/js/Pages/Phone/Records.jsx",
+      "resources/js/Pages/Phone/Reminders.jsx",
+      "resources/js/Pages/Phone/Services.jsx",
+      "resources/js/Pages/Phone/Subscriptions.jsx",
+      "resources/js/Pages/Phone/Terms.jsx",
+      "resources/js/Pages/Phone/Warranty.jsx"
+    ],
+    "css": [
+      "assets/app-DzFRyPVl.css"
+    ]
+  }
+}
